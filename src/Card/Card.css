@@ -1,0 +1,39 @@
+.cardimg{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3px;
+    height: 202px;
+    width: 260px;
+}
+.card{
+    display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  margin-top: 5px;
+  border-color: aliceblue;
+  width: 100%;
+  
+}
+.cardmain{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;  
+    justify-content: space-between;
+    margin-bottom: 6px;
+     
+}
+.clicked-1{
+    background-color:peru;
+  
+    
+    
+}
+.clicked-2{
+  padding: 0%;
+  border: none;
+  background: none;
+ 
+}

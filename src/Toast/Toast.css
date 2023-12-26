@@ -1,0 +1,30 @@
+.toast-place{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 35px;
+   color:aquamarine;
+   font-size:larger;
+
+}
+.toast-color{
+   background-color:black;
+}
+.toast-imgcart{
+   height: 140px;
+   width: 190px;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+}
+.Xbutton{
+   color:white;
+   background-color: black;
+   border-color: white;
+   box-shadow: seashell;
+   margin-left: 5px;
+
+}
+.Xbutton:hover{
+   color: black;
+   background-color: lightgreen;
+}
