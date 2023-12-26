@@ -35,7 +35,7 @@ import for2 from "../assets/for2.jpg"
 import for3 from "../assets/for3.jpg"
 import for4 from "../assets/for4.jpg"
 
-import "./card.css"
+import "./Card.css"
 
 
 
