@@ -1,0 +1,43 @@
+.des-img{
+    float: left;
+    height: auto;
+width: 25%;
+    position: sticky;
+    
+}
+.right-content{
+    margin-left: 40%;
+    margin-top: 5%;
+}
+.des-cart{
+    margin-bottom: 7%;
+    
+    
+}
+.des-about{
+    margin-bottom: 4%;
+    text-decoration: underline;
+    font-weight: bold;
+    /* font-style: italic; */
+    /* color:#454545; */
+    
+}
+.des-descr{
+    margin-bottom: 4%;
+    
+    
+}
+.des-price{
+    margin-bottom: 9%;
+    color:cornflowerblue;
+    font-style: italic;
+}
+.des-reviews{
+    margin-bottom: 8%;
+    font-weight:lighter;
+}
+.des-button{
+    margin-bottom: 25%;
+    color: black;
+    background-color: cornflowerblue;
+}

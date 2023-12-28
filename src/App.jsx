@@ -7,7 +7,8 @@ import Caroselslide from "./carosel/Caroselslide"
 import Card from './Card/Card';
 import { Provider } from 'react-redux';
 import { store } from './store/store';
-import Search from './Navbar/Search';
+
+import Design from './description/Design';
 
 
 
@@ -22,11 +23,12 @@ const App = () => {
 <Navbar/>
 <Caroselslide/>
 <Card/>
-</Provider>
-
-{/* <Search/> */}
+</Provider> 
 
 
+
+ {/* <Design/>  */}
+ {/* <Card/> */}
     </div>
   );
 }
