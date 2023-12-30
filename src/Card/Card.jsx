@@ -357,6 +357,7 @@ const Card = () => {
             {data.map((item,index)=>(
 
                   <div key={item.id} onClick={() => handleItemClick(index)} className="col-3">
+                  
                    <Cardcomp cardimg={item.image}
                      cardtitle={item.Card} 
                      carddescription={item.description}
@@ -364,20 +365,24 @@ const Card = () => {
                       </div>  
                                 
             ))}
-            <div>
-
+            
+            
+            <div >
             {item !== null ? (
+                
                         <Design
                         desimg={data[item].image}
                         descart={data[item].Card}
                         desdescription={data[item].About}
                         desprice={data[item].price}
                         />
-            ):
+                    
+           ):
             (<p></p>
             )}
+            
                      </div>
-
+                     
 </div>
     </div>
     </div>

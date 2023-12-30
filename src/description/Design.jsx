@@ -17,6 +17,7 @@ const Design = (props) => {
             <button className="des-button">Buy now</button>
             </div>
             
+            
         </div>
 
 

@@ -9,7 +9,6 @@ import Toastcomp from '../Toast/Toastcomp';
 
 
 
-
 const Cardcomp = (props) => {
   
  
@@ -31,7 +30,9 @@ const Cardcomp = (props) => {
   return (
       <div className='cardmain'>
         <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" className='cardimg' src={props.cardimg} />
+          
+        <Card.Img variant="top" className='cardimg'   src={props.cardimg} />
+       
         <Card.Body>
           <Card.Title>{props.cardtitle}</Card.Title>
           <Card.Text>

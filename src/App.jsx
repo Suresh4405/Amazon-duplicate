@@ -14,6 +14,7 @@ import Design from './description/Design';
 
 
 
+
 const App = () => {
 
   return (
@@ -24,7 +25,6 @@ const App = () => {
 <Caroselslide/>
 <Card/>
 </Provider> 
-
 
 
  {/* <Design/>  */}
